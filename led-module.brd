@@ -1537,39 +1537,6 @@ Based on the following sources:
 </package>
 </packages>
 </library>
-<library name="holes" urn="urn:adsk.eagle:library:237">
-<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="5,0" urn="urn:adsk.eagle:footprint:14245/1" library_version="2">
-<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.0 mm with drill center</description>
-<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
-<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
-<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
-<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
-<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
-<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
-<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
-<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
-<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
-<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
-<circle x="0" y="0" radius="2.6" width="0.1524" layer="21"/>
-<text x="-1.27" y="-4.445" size="1.27" layer="48">5,0</text>
-<hole x="0" y="0" drill="5"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="5,0" urn="urn:adsk.eagle:package:14276/1" type="box" library_version="2">
-<description>MOUNTING HOLE 5.0 mm with drill center</description>
-<packageinstances>
-<packageinstance name="5,0"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1956,19 +1923,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="19.51" y="19.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="16.97" y="20.59" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U$1" library="5-2154874-3" package="5-2154874-3" value="5-2154874-3" x="20.062" y="59.888" smashed="yes" rot="R180"/>
-<element name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" package="5,0" package3d_urn="urn:adsk.eagle:package:14276/1" value="MOUNT-HOLE5.0" x="34.655" y="4.916" smashed="yes">
-<attribute name="POPULARITY" value="0" x="34.655" y="4.916" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" package="5,0" package3d_urn="urn:adsk.eagle:package:14276/1" value="MOUNT-HOLE5.0" x="35.874" y="74.939" smashed="yes">
-<attribute name="POPULARITY" value="0" x="35.874" y="74.939" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" package="5,0" package3d_urn="urn:adsk.eagle:package:14276/1" value="MOUNT-HOLE5.0" x="19.097" y="44.903" smashed="yes">
-<attribute name="POPULARITY" value="0" x="19.097" y="44.903" size="1.778" layer="27" display="off"/>
-</element>
-<element name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" package="5,0" package3d_urn="urn:adsk.eagle:package:14276/1" value="MOUNT-HOLE5.0" x="35.536" y="30.421" smashed="yes">
-<attribute name="POPULARITY" value="0" x="35.536" y="30.421" size="1.778" layer="27" display="off"/>
-</element>
+<element name="U$1" library="5-2154874-3" package="5-2154874-3" value="5-2154874-3" x="20" y="40" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2344,7 +2299,7 @@ design rules under a new name.</description>
 <wire x1="22.1056" y1="17.18110625" x2="22.1056" y2="20.63369375" width="0.3" layer="16"/>
 <wire x1="22.1056" y1="20.63369375" x2="20.16169375" y2="22.5776" width="0.3" layer="16"/>
 <wire x1="20.16169375" y1="22.5776" x2="18.7224" y2="22.5776" width="0.3" layer="16"/>
-<wire x1="5.469890625" y1="75.323890625" x2="4.822" y2="76.398" width="0" layer="19" extent="1-1"/>
+<wire x1="5.469890625" y1="75.323890625" x2="4.76" y2="56.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <polygon width="0.004" layer="1" thermals="no">
@@ -2400,7 +2355,7 @@ design rules under a new name.</description>
 <wire x1="13.51" y1="32.583" x2="18.167" y2="37.24" width="2" layer="1"/>
 <wire x1="18.167" y1="37.24" x2="31.816" y2="37.24" width="2" layer="1"/>
 <wire x1="35.302" y1="40.726" x2="31.816" y2="37.24" width="2" layer="1"/>
-<wire x1="35.302" y1="40.726" x2="35.302" y2="40.838" width="2" layer="1"/>
+<wire x1="35.302" y1="40.726" x2="35.24" y2="20.95" width="2" layer="1"/>
 </signal>
 <signal name="N$15">
 <contactref element="R9" pad="2"/>
